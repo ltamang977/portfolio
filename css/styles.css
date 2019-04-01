@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+/*   background-color: green; */
+}
+
+#wrapper{
+  padding: 0 5px;
+}
+
+header{
+ /*  background-color: red; */
+  padding-top: 15px;
+}
+
+#logo{
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+#logo img{
+  width : 100%;
+}
+
+#profile{
+  /* background-color: blue; */
+  padding: 20px 0;
+}
+
+header h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #02b3e4;
+  font-size: 30px;
+  margin: 0px;
+}
+
+header h4{
+  text-align: center;
+  margin: 0px;
+  padding-top: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #7d97ad;
+}
+
+hr {
+  background-color: #7d97ad;
+ /*  max-width:px; */
+  border: none;
+  height: 3px;
+}
+
+#landing{
+  margin-top: 20px;
+}
+
+#landing img{
+  width: 100%;
+}
+
+#work{
+  padding: 20px;
+}
+
+#work h2{
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  color: #4f5256;
+}
+
+#feature-work{
+  margin-top: 30px;
+/*   padding: 0px 10px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#feature-work h2{
+  text-align: center;
+  font-size: 25px;
+  color: #4f5256;
+}
+
+.apps{
+  margin-top: 25px;
+  flex-basis: 100%;
+}
+
+.app-img{
+}
+
+.app-img img{
+  width: 100%;
+}
+
+.app1{
+ /*  width: 100%; */
+}
+
+.app2{
+  /* width: 100%; */
+}
+
+.app3{
+  /* width: 100%; */
+}
+
+
+.app-desc{
+  margin: 0px auto;
+  padding: 5px;
+}
+
+.app-title{
+  text-align: center;
+}
+
+.app-title h3{
+  margin: 0 auto;
+  font-size: 20px;
+  color: #4f5256;
+}
+.app-title p{
+  displya: inline;
+  margin: 0;
+}
+
+footer{
+  background-color: #8cacd1;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+footer p{
+  text-align: center;
+}
+
+
+@media (min-width: 768px) {
+
+  header{
+   /*  background-color: red; */
+    display: flex;
+    padding: 15px 15px;
+  }
+
+  #logo img{
+    width : 100%;
+  }
+
+  #profile{
+    /* background-color: blue; */
+    padding: 20px 10px;
+    flex: 1;
+  }
+
+  header h1{
+    text-align: right;
+    font-size: 40px;
+    margin: 0px;
+  }
+
+  header h4{
+    text-align: right;
+    margin: 0px;
+    padding-top: 5px;
+    font-size: 20px;
+  }
+
+  #feature-work h2{
+    text-align: left;
+    font-size: 35px;
+    color: #4f5256;
+  }
+
+  .apps{
+    flex-basis: 40%;
+  }
+
+  .app1{
+    /* flex-basis: 40%; */
+  }
+
+  .app2{
+    /* flex-basis: 40%; */
+  }
+
+  .app3{
+    /* flex-basis: 40%; */
+  }
+
+  footer{
+    padding: 20px 0;
+  }
+
+}
+
+@media (min-width: 900px) {
+
+   #wrapper {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .apps{
+    flex-basis: 30%;
+  }
+  
+  .app1{
+    /* flex-basis: 30%; */
+  }
+
+  .app2{
+    /* flex-basis: 30%; */
+  }
+
+  .app3{
+    /* flex-basis: 30%; */
+  }
+
+   footer{
+    padding: 40px 0;
+  }
+
+}
